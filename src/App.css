@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Baloo Da 2', cursive !important;
+  color: #fff !important;
+  background: #333 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand {
+  font-size: 30px !important;
+  color: #fff !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link {
+  font-size: 18px !important;
+  margin-left: 20px !important;
+  color: #fff !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-body {
+  background: #efebe9 ;
+  color: #333;
 }
 
-.App-link {
-  color: #61dafb;
+.display-container {
+  color: #333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete-icon {
+  color: #f44336;
+}
+
+.edit-icon {
+  color: #1565c0;
+}
+
+h5 {
+  color: #fff;
+}
+
+.delete-icon, .edit-icon {
+  cursor: pointer;
+}
+
+.complete-icon {
+  cursor: pointer;
+}
+
+.about-span {
+  font-weight: bold;
+  color: #333;
+}
+
+.footer {
+  height: 45px;
+  background: #263238;
+  color: #fff;
+  margin-top: 160px;
 }
